@@ -7,6 +7,7 @@ from .models import Start
 from .serializers import *
 
 # Create your views here.
+
 @csrf_exempt
 def startApi(request, id=0):
     if request.method == 'GET':

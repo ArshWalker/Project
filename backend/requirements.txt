@@ -1,0 +1,4 @@
+django
+corsheaders
+djoser
+rest_framework
